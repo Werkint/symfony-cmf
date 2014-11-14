@@ -1,5 +1,5 @@
 {
-    "name": "symfony-cmf/symfony-cmf",
+    "name": "werkint/symfony-cmf",
     "description": "Symfony Content Management Framework",
     "homepage": "http://cmf.symfony.com",
     "license": "MIT",
@@ -21,6 +21,9 @@
         "symfony-cmf/block-bundle": "1.2.*",
         "symfony-cmf/routing-bundle": "1.3.*",
         "symfony-cmf/media-bundle": "1.2.*"
+    },
+    "replace": {
+        "symfony-cmf/symfony-cmf": "self.version"
     },
     "require-dev": {
         "jackalope/jackalope-jackrabbit": "1.*"
